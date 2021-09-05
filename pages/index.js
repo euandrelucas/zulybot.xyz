@@ -31,7 +31,7 @@ function Home() {
                             <FontAwesomeIcon icon={faPlus} /> Me Adicione
                             </a>
                             <a href="/discord" className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-indigo-700 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg" target="_blank" rel="noreferrer">
-                            <i className="fab fa-discord"></i> Servidor de Suporte
+                            <i className="fab fa-discord"></i> Discord
                             </a>
                         </div>
                     </div>
