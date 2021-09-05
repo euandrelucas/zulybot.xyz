@@ -88,7 +88,7 @@ export const Footer = () => {
                     <li>
                       <a
                         className="text-purple-600 hover:text-purple-800 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial?ref=nnjs-footer"
+                        href="/github"
                       >
                         Github
                       </a>
