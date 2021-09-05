@@ -24,6 +24,7 @@ function MyApp({Component, pageProps}) {
     <meta content="ZulyBot" property="og:title"/>
     <meta content="600" property="og:ttl"/>
     <script async src="https://arc.io/widget.min.js#dLLm1Tz6"></script>
+    <script src="//code.tidio.co/ognomdog2y07i6p8ebctb3sqzb6ermmo.js" async></script>
     </Head>
     <Component {...pageProps}/>
     </>
