@@ -57,9 +57,9 @@ export const Navbar = () => {
               <i className="fab fa-discord"></i> Discord
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/report'>
               <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-pink-600 hover:text-white'>
-              <FontAwesomeIcon icon={faGift} /> Premium
+              <i className="fas fa-bug"></i> Report
               </a>
             </Link>
             <Link href='/'>
