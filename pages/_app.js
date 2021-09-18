@@ -14,6 +14,9 @@ function MyApp({Component, pageProps}) {
     return (
     <>
     <Head>
+    <title>Zuly | Website</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport"/>
+    <meta name="keywords" content="Zuly, Discord, Bot, Eris, Free, Anime, NSFW">
     <meta name="robots" content="follow, index"/>
     <meta name="theme-color" content="#ffcbdb"/>
     <meta name="twitter:card" content="summary"/>
