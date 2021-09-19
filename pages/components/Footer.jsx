@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/link-passhref */
 /* eslint-disable @next/next/no-sync-scripts */
 import React from "react";
 import Link from "next/link";
@@ -132,17 +133,17 @@ export const Footer = () => {
           </div>
           <hr className="my-6 border-purple-300" />
           <div className="flex flex-wrap items-center md:justify-between justify-center">
-          <p align="left">
-              <a href="/add" target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-purple-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150" rel="noreferrer">
-               <i className="fa fa-plus"/> Me Adicione
-              </a>
-            </p>
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <center><a href="//www.dmca.com/Protection/Status.aspx?ID=a4a8f347-4aec-4ef1-aa49-c2772c501416" title="DMCA.com Protection Status" className="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w100-5x1-08.png?ID=a4a8f347-4aec-4ef1-aa49-c2772c501416"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script></center>
               <div className="text-sm text-purple-500 font-semibold py-1">
               And. © 2021 - {year} — Todos os direitos reservados.
               </div>
             </div>
+            <p align="right">
+              <a href="/add" target="_blank" className="text-white font-bold px-6 py-4 rounded bg-purple-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150" rel="noreferrer">
+               <i className="fa fa-plus"/> Me Adicione
+              </a>
+            </p>
           </div>
         </div>
       </footer>
