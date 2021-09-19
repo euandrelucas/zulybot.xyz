@@ -34,7 +34,7 @@ function Home() {
                             <FontAwesomeIcon icon={faPlus} /> Me Adicione
                         </a>
                         <a href="/discord" className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-indigo-700 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg" target="_blank" rel="noreferrer">
-                            <i className="fab fa-discord"></i> Discord
+                            <i className="fab fa-discord"></i> Suporte
                         </a>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ function Home() {
         </center>
     </div>
     <div className="container mx-auto px-4 pb-32 ">
-        <h1 id="funcionalidades" className="text-3xl font-semibold">Sistemas</h1>
+        <h1 id="funcionalidades" className="text-3xl font-semibold">Funcionalidades</h1>
         <br />
         <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
