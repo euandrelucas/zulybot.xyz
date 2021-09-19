@@ -28,7 +28,6 @@ function MyApp({Component, pageProps}) {
     <meta content="600" property="og:ttl"/>
     <meta name='dmca-site-verification' content='cGVrd3JxaktEeDVJQ3FaVWs2Tzdkdz090' />
     <script async src="https://arc.io/widget.min.js#dLLm1Tz6"></script>
-    <script src="//code.tidio.co/ognomdog2y07i6p8ebctb3sqzb6ermmo.js" async></script>
     <title>Zuly | Website</title>
     </Head>
     <Component {...pageProps}/>
