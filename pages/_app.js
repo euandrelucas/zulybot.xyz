@@ -28,6 +28,7 @@ function MyApp({Component, pageProps}) {
     <meta content="Olá! Sou a zuly, um bot brasileiro focado em anime para o público otaku, com sistemas que bots de anime gringos tem, porém sou 100% brasileira, ou seja, suporte mais fácil e melhor interação!" property="og:description"/>
     <meta content="ZulyBot" property="og:title"/>
     <meta content="600" property="og:ttl"/>
+    <meta name='dmca-site-verification' content='cGVrd3JxaktEeDVJQ3FaVWs2Tzdkdz090' />
     <script async src="https://arc.io/widget.min.js#dLLm1Tz6"></script>
     <script src="//code.tidio.co/ognomdog2y07i6p8ebctb3sqzb6ermmo.js" async></script>
     <title>Zuly | Website</title>
