@@ -10,8 +10,6 @@ const meta = {
   description: 'Olá! Sou a zuly, um bot brasileiro focado em anime para o público otaku, com sistemas que bots de anime gringos tem, porém sou 100% brasileira, ou seja, suporte mais fácil e melhor interação!',
 }
 
-import favico from "../public/favicon.png";
-
 function MyApp({Component, pageProps}) {
     return (
     <>
