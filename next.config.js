@@ -36,6 +36,16 @@ module.exports = {
         source: '/andtwitter',
         destination: 'https://twitter.com/4DG_YT',
         permanent: true
+      },
+      {
+        source: '/__logs',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/__tail',
+        destination: '/',
+        permanent: true,
       }
     ]
   },
