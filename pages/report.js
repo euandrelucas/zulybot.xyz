@@ -19,9 +19,9 @@ function Home() {
         <Navbar/>
 
         <section section className="header items-center h-screen max-h-860-px">
-            
+        <center>
         <iframe src="https://star-reports.4dg.repl.co/" height="600" width="1200">About</iframe>
-
+        </center>
         </section>
 
         <Footer/>
