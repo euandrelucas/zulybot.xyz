@@ -1,9 +1,11 @@
 // CSS FILES
-import '../styles/main.css'
-import '../styles/font.css'
+import '../styles/main.css';
+import '../styles/font.css';
+import dynamic from 'next/dynamic'
 // FONTAWESOME
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import Head from "next/head"
+import Head from "next/head";
+const GoTop = dynamic(() => import('./components/GoTop'))
 
 const meta = {
   title: 'Website da Zuly',
@@ -30,6 +32,7 @@ function MyApp({Component, pageProps}) {
     <title>Zuly | Website</title>
     </Head>
     <Component {...pageProps}/>
+    <GoTop/>
     </>
       )
 }
