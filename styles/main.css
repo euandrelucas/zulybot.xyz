@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    cursor: url(/cursor/main_cur.png), default;
+}
 .bouncy-arrow {
     color: #fff;
     position: absolute;
@@ -10,12 +13,12 @@
     font-size: 3.5em;
     animation: arrow-bounce 2s infinite;
     overflow: hidden;
-    cursor: pointer
+    cursor: url(/cursor/pointer_cur.png), pointer;
 }
 
 .back-to-top .top {
     position: fixed;
-    cursor: pointer;
+    cursor: url(/cursor/pointer_cur.png), pointer;
     bottom: 15px;
     right: 15px;
     font-size: 25px;
