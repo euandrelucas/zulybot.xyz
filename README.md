@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+> ## Extra Terms of use
+<a>- You have the permission to shoot and share videos, but you have to mention us, our server, in the video.</a><br>
+<a>- You have the permission to share in writing, but you have to mention us, our server, in the article.</a><br>
+<a>- You can't speak in a "we did it" way.</a><br>
+<a>- You cannot sell it.</a><br>
+<a>- Don't touch this part on footer;</a><br>
+<img width="512" src="/assets/footer.png">
+
 ## Getting Started
 
 First, run the development server:
