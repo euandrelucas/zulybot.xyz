@@ -4,7 +4,7 @@ module.exports = {
     return [
       {
         source: '/add',
-        destination: 'https://discord.com/oauth2/authorize?client_id=880173509077266483&scope=bot%20applications.commands&permissions=805432446',
+        destination: 'https://discord.com/oauth2/authorize?client_id=880173509077266483&scope=bot%20applications.commands&permissions=268823622',
         permanent: true,
       },
       {
