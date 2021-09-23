@@ -59,7 +59,8 @@ module.exports = {
       },
       {
         source: '/bluephoenix',
-        destination: 'https://bluephoenixlist.xyz/bot/880173509077266483'
+        destination: 'https://bluephoenixlist.xyz/bot/880173509077266483',
+        permanent: true
       }
     ]
   },
