@@ -7,9 +7,6 @@ import React from "react";
 import Link from "next/link";
 const Navbar = dynamic(() => import('./components/Navbar'))
 const Footer = dynamic(() => import('./components/Footer'))
-// FONTAWESOME
-import { faPlus } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Home() {
     return (
@@ -31,25 +28,29 @@ backgroundColor: '#ffcbdb'
                     </p>
                     <div className="mt-12">
                         <a href="/add" target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-purple-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150" rel="noreferrer">
-                            <FontAwesomeIcon icon={faPlus} /> Me Adicione
+                            <i className="fas fa-plus" style={{
+                              color: '#ffffff'
+                            }}/> Me Adicione
                         </a>
                         <a href="/discord" className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-indigo-700 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg" target="_blank" rel="noreferrer">
-                            <i className="fab fa-discord"></i> Suporte
+                            <i className="fab fa-discord" style={{
+                              color: '#ffffff'
+                            }}></i> Suporte
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="absolute top-150 b-auto right-2 sm:w-3/12 w-2/12" src="/img/photo_home.png" alt="photo_home" />
+        <img className="flex top-150 b-auto right-2 sm:w-3/12 w-2/12" src="/img/photo_home.png" alt="photo_home" />
     </section>
     <div className="bouncy-arrow">
         <center>
             <Link href="#funcionalidades"><i className="fas fa-chevron-down" style={{
-            color: '#3065AC'
+            color: '#3065AC',
         }}></i></Link>
         </center>
     </div>
-    <div className="container mx-auto px-4 pb-32 ">
+    <div className="container mx-auto px-4 pb-32">
         <h1 id="funcionalidades" className="text-3xl font-semibold">Funcionalidades</h1>
         <br />
         <div className="items-center flex flex-wrap">
@@ -102,7 +103,6 @@ backgroundColor: '#ffcbdb'
                       />
                     </div>
                 </div>
-
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Música

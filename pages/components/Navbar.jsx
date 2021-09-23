@@ -1,7 +1,9 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import { useState } from 'react';
 
-import { faHome, faGift, faPaintBrush } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faPaintBrush } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const Navbar = () => {
@@ -10,22 +12,17 @@ export const Navbar = () => {
   const handleClick = () => {
     setActive(!active);
   };
- 
+
   return (
     <>
-      <nav className='flex items-center flex-wrap bg-pink-400 p-3 '>
-        <Link href='/'>
-          <a className='inline-flex items-center p-2 mr-4 '>
-            <span className='text-xl text-white font-bold uppercase tracking-wide'>
-              Zuly
-            </span>
+      <nav className='flex items-center bg-pink-400 p-2'>
+          <a href="/" className='border-transparent shadow-none bg-pink-400 rounded-lg p-2'>
+            <img className="sm:w-10 w-10 border-none rounded-lg" src="/favicon.ico" alt="photo_home" />
           </a>
-        </Link>
-        <button
+          <button
           className=' inline-flex p-3 hover:bg-pink-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
-          onClick={handleClick}
-        >
-          <svg
+          onClick={handleClick}>
+                      <svg
             className='w-6 h-6'
             fill='none'
             stroke='currentColor'
@@ -40,7 +37,6 @@ export const Navbar = () => {
             />
           </svg>
         </button>
-        {/*Note that in this div we will use a ternary operator to decide whether or not to display the content of the div  */}
         <div
           className={`${
             active ? '' : 'hidden'

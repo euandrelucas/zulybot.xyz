@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unknown-property */
 /* eslint-disable @next/next/link-passhref */
 /* eslint-disable @next/next/no-sync-scripts */
 import React from "react";
@@ -7,8 +6,6 @@ import Link from "next/link";
 // COPYRIGHT
 const name = "And.";
 const year = new Date().getFullYear();
-
-const doGTranslate = function () {}
 
 export const Footer = () => {
   return (
@@ -97,7 +94,9 @@ export const Footer = () => {
                 <div className="flex flex-wrap items-center md:justify-between justify-center">
                     <p align="left">
                         <a href="/add" target="_blank" className="text-white font-bold px-6 py-4 rounded bg-purple-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150" rel="noreferrer">
-                            <i className="fa fa-plus" /> Me Adicione
+                            <i className="fa fa-plus" style={{
+                              color: '#ffffff'
+                            }}/> Me Adicione
                         </a>
                     </p>
                     <div className="w-full md:w-4/12 px-4 mx-auto text-center">
@@ -105,12 +104,14 @@ export const Footer = () => {
                             <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
                         </center>
                         <div className="text-sm text-purple-500 font-semibold py-1">
-                            And. © 2021 - {year} — Todos os direitos reservados.
+                            {name} © 2021 - {year} — Todos os direitos reservados.
                         </div>
                     </div>
                     <p align="right">
                         <a href="/discord" className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-indigo-700 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg" target="_blank" rel="noreferrer">
-                            <i className="fab fa-discord"></i> Suporte
+                            <i className="fab fa-discord" style={{
+                              color: '#ffffff'
+                            }}></i> Suporte
                         </a>
                     </p>
                 </div>
