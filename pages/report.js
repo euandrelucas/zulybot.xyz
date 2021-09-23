@@ -18,9 +18,12 @@ function Home() {
         }}>
         <Navbar/>
 
-        <section section className="header items-center h-screen max-h-860-px">
+        <br/>
+        <br/>
+
+        <section section className="h-screen">
         <center>
-        <iframe src="https://star-reports.4dg.repl.co/" height="600" width="1200">About</iframe>
+        <iframe width="100%" height="500" src="//star-reports.4dg.repl.co/" frameBorder="0" allowFullScreen/>
         </center>
         </section>
 
