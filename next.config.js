@@ -38,14 +38,23 @@ module.exports = {
         permanent: true
       },
       {
-        source: '/__logs',
-        destination: '/',
+        source: '/dbl',
+        destination: 'https://top.gg/bot/880173509077266483',
         permanent: true,
       },
       {
-        source: '/__tail',
-        destination: '/',
+        source: '/bestlist',
+        destination: 'https://bestlist.online/bots/880173509077266483',
         permanent: true,
+      },
+      {
+        source: '/discordbots',
+        destination: 'https://discord.bots.gg/bots/880173509077266483',
+        permanent: true
+      },
+      {
+        source: '/discordboats',
+        destination: 'https://discord.boats/bot/880173509077266483'
       }
     ]
   },
