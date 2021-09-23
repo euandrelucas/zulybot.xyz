@@ -56,6 +56,10 @@ module.exports = {
         source: '/discordboats',
         destination: 'https://discord.boats/bot/880173509077266483',
         permanent: true
+      },
+      {
+        source: '/bluephoenix',
+        destination: 'https://bluephoenixlist.xyz/bot/880173509077266483'
       }
     ]
   },
