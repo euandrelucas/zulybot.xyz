@@ -12,9 +12,9 @@ function Home() {
     return (
 <>
 
-<body className="text-center text-white" style={{
-backgroundColor: '#ffcbdb'
-}}>
+  <body className="text-center text-white" style={{
+    backgroundColor: '#ffcbdb'
+  }}>
     <Navbar />
     <section section className="header pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
@@ -41,11 +41,12 @@ backgroundColor: '#ffcbdb'
                 </div>
             </div>
         </div>
-        <img className="flex top-150 b-auto right-2 sm:w-3/12 w-2/12" src="/img/photo_home.png" alt="photo_home" />
+        <img className="flex top-100 b-auto right-2 sm:w-3/12 w-2/12" src="/img/photo_home.webp" alt="photo_home" />
     </section>
     <div className="bouncy-arrow">
         <center>
-            <Link href="#funcionalidades"><i className="fas fa-chevron-down" style={{
+            <Link href="#funcionalidades"><i className="top-100 
+            fas fa-chevron-down" style={{
             color: '#3065AC',
         }}></i></Link>
         </center>
@@ -72,7 +73,7 @@ backgroundColor: '#ffcbdb'
                 <img alt="..." className="max-w-full rounded-lg shadow-xl" style={{
       transform:
         "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
-    }} src="/img/photo_func1.png" />
+    }} src="/img/photo_func1.webp" />
             </div>
         </div>
     </div>
@@ -99,7 +100,7 @@ backgroundColor: '#ffcbdb'
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/photo_func2.png"
+                        src="/img/photo_func2.webp"
                       />
                     </div>
                 </div>
@@ -111,7 +112,7 @@ backgroundColor: '#ffcbdb'
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/photo_func3.png"
+                        src="/img/photo_func3.webp"
                       />
                     </div>
                 </div>
@@ -124,7 +125,7 @@ backgroundColor: '#ffcbdb'
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src="/img/photo_func4.png"
+                        src="/img/photo_func4.webp"
                       />
                     </div>
                 </div>
