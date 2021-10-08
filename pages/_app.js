@@ -28,7 +28,9 @@ function MyApp({Component, pageProps}) {
     <meta content="Olá! Sou a zuly, um bot brasileiro focado em anime para o público otaku, com sistemas que bots de anime gringos tem, porém sou 100% brasileira, ou seja, suporte mais fácil e melhor interação!" property="og:description"/>
     <meta content="ZulyBot" property="og:title"/>
     <meta content="600" property="og:ttl"/>
-    <meta name='dmca-site-verification' content='cGVrd3JxaktEeDVJQ3FaVWs2Tzdkdz090' />
+    <meta name='dmca-site-verification' content='cGVrd3JxaktEeDVJQ3FaVWs2Tzdkdz090'/>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8508672573175230"
+     crossorigin="anonymous"/>
     <title>Zuly | Website</title>
     </Head>
     <Component {...pageProps}/>
