@@ -30,7 +30,7 @@ function MyApp({Component, pageProps}) {
     <meta content="600" property="og:ttl"/>
     <meta name='dmca-site-verification' content='cGVrd3JxaktEeDVJQ3FaVWs2Tzdkdz090'/>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8508672573175230"
-     crossorigin="anonymous"/>
+     crossOrigin="anonymous"/>
     <title>Zuly | Website</title>
     </Head>
     <Component {...pageProps}/>
