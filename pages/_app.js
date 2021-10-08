@@ -31,6 +31,7 @@ function MyApp({Component, pageProps}) {
     <meta name='dmca-site-verification' content='cGVrd3JxaktEeDVJQ3FaVWs2Tzdkdz090'/>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8508672573175230"
      crossOrigin="anonymous"/>
+    <script async src="https://arc.io/widget.min.js#dLLm1Tz6"/>
     <title>Zuly | Website</title>
     </Head>
     <Component {...pageProps}/>
