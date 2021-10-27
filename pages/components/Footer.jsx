@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 
 // COPYRIGHT
-const name = "And.";
+const name = "ADG";
 const year = new Date().getFullYear();
 
 export const Footer = () => {
