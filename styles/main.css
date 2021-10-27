@@ -43,3 +43,11 @@
     display:block;
     z-index:999;
 }
+
+.background {
+    background: url(/assets/background/stars.gif), url(/assets/background/background.jpg) center center; 
+    -moz-background-size: auto, cover;
+    -o-background-size: auto, cover;
+    background-size: auto, cover;
+    box-shadow: 0 1px 10px 0 rgba(180, 0, 255, 0.5), 0 5px 20px 0 rgba(255, 0, 255, 0.5)!important;
+}
