@@ -63,6 +63,9 @@ export const Navbar = () => {
               <FontAwesomeIcon icon={faPaintBrush} /> Fan-arts
               </a>
             </Link>
+            <div className="flex flex-wrap px-5">
+            <vue-dropdown animation="fade" color="red"></vue-dropdown>
+            </div>
           </div>
         </div>
       </nav>

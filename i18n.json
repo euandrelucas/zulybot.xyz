@@ -1,0 +1,9 @@
+{
+    "pages": {
+      "*": ["common"],
+      "/": ["home"],
+      "/cart": ["cart"],
+      "/content/[slug]": ["content"],
+      "rgx:^/account": ["account"]
+    }
+}

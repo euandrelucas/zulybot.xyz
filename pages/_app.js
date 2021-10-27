@@ -25,7 +25,7 @@ function MyApp({Component, pageProps}) {
     <meta name="twitter:site" content="@ZulyBot"/>
     <meta name="twitter:creator" content="@4DG_YT"/>
     <meta content="Website da Zuly" property="og:site_name"/>
-    <meta content="Olá! Sou a zuly, um bot brasileiro focado em anime para o público otaku, com sistemas que bots de anime gringos tem, porém sou 100% brasileira, ou seja, suporte mais fácil e melhor interação!" property="og:description"/>
+    <meta content="Olá! Sou a zuly, um bot brasileiro focado em anime para o público otaku!" property="og:description"/>
     <meta content="ZulyBot" property="og:title"/>
     <meta content="600" property="og:ttl"/>
     <meta name='dmca-site-verification' content='cGVrd3JxaktEeDVJQ3FaVWs2Tzdkdz090'/>

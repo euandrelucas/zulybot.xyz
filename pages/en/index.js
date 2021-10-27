@@ -5,8 +5,8 @@ import dynamic from 'next/dynamic'
 // REACT/COMPONENTS
 import React from "react";
 import Link from "next/link";
-const Navbar = dynamic(() => import('./components/Navbar'))
-const Footer = dynamic(() => import('./components/Footer'))
+const Navbar = dynamic(() => import('../components/Navbar'))
+const Footer = dynamic(() => import('../components/Footer'))
 
 function Home() {
     return (
@@ -24,18 +24,18 @@ function Home() {
                         Zuly
                     </h2>
                     <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                        Olá! Sou a zuly, um 100% bot brasileiro focado em anime para o público otaku!
+                        Hi! I am Zuly, a 100% Brazilian Bot focused on anime for the Otaku public!
                     </p>
                     <div className="mt-12">
                         <a href="/add" target="_blank" className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-purple-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150" rel="noreferrer">
                             <i className="fas fa-plus" style={{
                               color: '#ffffff'
-                            }}/> Me Adicione
+                            }}/> Add me
                         </a>
                         <a href="/discord" className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-indigo-700 active:bg-indigo-600 uppercase text-sm shadow hover:shadow-lg" target="_blank" rel="noreferrer">
                             <i className="fab fa-discord" style={{
                               color: '#ffffff'
-                            }}></i> Suporte
+                            }}></i> Support
                         </a>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ function Home() {
         <img className="flex top-100 b-auto right-2 sm:w-3/12 w-2/12" src="/img/photo_home.webp" alt="photo_home" />
     </section>
     <div className="container mx-auto px-4 pb-32">
-        <h1 id="funcionalidades" className="text-3xl font-semibold">Funcionalidades</h1>
+        <h1 id="funcionalidades" className="text-3xl font-semibold">Functionalities</h1>
         <br />
         <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
@@ -56,7 +56,7 @@ function Home() {
                         Waifus
                     </h3>
                     <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                        A Zuly possui uma database com +300 waifus diferentes aonde você pode casar com elas e ganhar ryos, a moeda da economia da zuly! Basta usar o comando z!waifu.
+                        Zuly has a Database with +300 different Waifus where you can marry them and win Ryos, Zuly economy currency! Just use the command /waifu.
                     </p>
                 </div>
             </div>
@@ -72,10 +72,9 @@ function Home() {
     
     <div className="justify-center text-center flex flex-wrap top-150">
           <div className="w-full md:w-6/12 px-12 md:px-4">
-            <h2 className="font-semibold text-4xl">Outras Funcionalidades</h2>
+            <h2 className="font-semibold text-4xl">Other features</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              Além da funcionalidade principal, o sistema de waifu, a zuly também possui outros sistemas para ajudar & divertir seu servidor
-            </p>
+            In addition to the main functionality, the Waifu system, Zuly also has other systems to help & amuse your server            </p>
           </div>
         </div>
         <section className="block relative z-1 bg-blueGray-600">
@@ -87,7 +86,7 @@ function Home() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                   <i className="fas fa-ban" style={{
                     color: '#C9B5D4'
-                  }}></i> Moderação
+                  }}></i> Moderation
                   </h5>
                     <div className="absolute thumbnail hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
@@ -101,7 +100,7 @@ function Home() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                   <i className="fas fa-music" style={{
                     color: '#C9B5D4'
-                  }}></i> Música
+                  }}></i> Music
                   </h5>
                     <div className="absolute thumbnail hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
@@ -116,7 +115,7 @@ function Home() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                   <i className="fas fa-democrat" style={{
                     color: '#C9B5D4'
-                  }}></i> Diversão
+                  }}></i> Fun
                   </h5>
                     <div className="absolute thumbnail hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img

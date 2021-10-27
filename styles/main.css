@@ -1,1 +1,45 @@
-@tailwind base;@tailwind components;@tailwind utilities;.bouncy-arrow{color:#fff;position:flex;bottom:0;right:50%;font-size:3.5em;animation:arrow-bounce 2s infinite;overflow:hidden;cursor:pointer}.back-to-top .top{position:fixed;cursor:pointer;bottom:15px;right:15px;font-size:25px;color:#fff;background-color:#000;z-index:4;width:45px;text-align:center;height:45px;line-height:45px;border-radius:50%;-webkit-transition:.5s;transition:.5s}.back-to-top .top:hover{color:#fff;background:#f36}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bouncy-arrow {
+    color: #fff;
+    position: flex;
+    bottom: 0;
+    right: 50%;
+    font-size: 3.5em;
+    animation: arrow-bounce 2s infinite;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.back-to-top .top {
+    position: fixed;
+    cursor: pointer;
+    bottom: 15px;
+    right: 15px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #000;
+    z-index: 4;
+    width: 45px;
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
+.back-to-top .top:hover {
+    color: #fff;
+    background: #f36
+}
+
+
+.thumbnail:hover {
+    position:relative;
+    transform: scale(1.2);
+    display:block;
+    z-index:999;
+}

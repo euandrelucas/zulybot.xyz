@@ -1,0 +1,16 @@
+{
+    "name": "Zuly | Website",
+    "short_name": "ZB",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "296x296",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffcbdb",
+    "background_color": "#ffcbdb",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait"
+}
